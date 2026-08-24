@@ -1,0 +1,38 @@
+.band {
+  background: rgba(23, 26, 28, 0.85);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 80px 0;
+}
+
+.band-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 760px) {
+  .band-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.band-item .num {
+  font-family: var(--serif);
+  font-size: 44px;
+  color: var(--cream);
+}
+
+.band-item .num .u {
+  font-size: 20px;
+  color: var(--uni);
+}
+
+.band-item .label {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--cream-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 8px;
+}

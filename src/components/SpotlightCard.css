@@ -1,0 +1,28 @@
+.spotlight {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 4px;
+}
+
+.spotlight__halo {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.spotlight:hover .spotlight__halo {
+  opacity: 1;
+}
+
+.spotlight__content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}

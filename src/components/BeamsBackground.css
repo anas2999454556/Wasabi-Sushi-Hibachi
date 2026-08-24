@@ -1,0 +1,19 @@
+.beams {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: radial-gradient(60% 80% at 50% 50%, black 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(60% 80% at 50% 50%, black 0%, transparent 75%);
+}
+
+.beams__beam {
+  position: absolute;
+  top: 0;
+  height: 60%;
+  border-radius: 999px;
+  filter: blur(28px);
+  opacity: 0.4;
+  will-change: transform, opacity;
+}

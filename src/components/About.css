@@ -1,0 +1,123 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px;
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-copy p {
+  color: var(--cream-dim);
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 18px;
+  max-width: 480px;
+}
+
+.about-lead {
+  color: var(--cream) !important;
+  font-size: 19px !important;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 450;
+  line-height: 1.5;
+}
+
+.source-list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.source-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.source-row .name {
+  color: var(--cream);
+}
+
+.source-row .place {
+  font-family: var(--mono);
+  color: var(--cream-faint);
+  font-size: 12px;
+}
+
+.about-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 36px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -30%;
+  width: 60%;
+  height: 160%;
+  background: radial-gradient(circle, var(--uni-soft), transparent 65%);
+}
+
+.about-card-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--uni);
+}
+
+.about-card h3 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 450;
+  margin-top: 14px;
+}
+
+.about-card-meta {
+  color: var(--cream-dim);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.temp-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--cream-faint);
+}
+
+.temp-bar {
+  flex: 1;
+  height: 2px;
+  background: var(--line);
+  position: relative;
+}
+
+.temp-bar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 62%;
+  height: 8px;
+  background: var(--uni);
+  border-radius: 1px;
+}

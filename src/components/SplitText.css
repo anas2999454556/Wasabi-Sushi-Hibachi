@@ -1,0 +1,9 @@
+.split-text {
+  /* Inherits font properties from the parent / global theme. */
+  display: inline-block;
+}
+
+.split-text__item {
+  display: inline-block;
+  will-change: transform, opacity;
+}

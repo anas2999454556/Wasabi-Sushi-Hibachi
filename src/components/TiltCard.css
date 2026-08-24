@@ -1,0 +1,11 @@
+.tilt {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.tilt__inner {
+  transform: translateZ(0);
+  height: 100%;
+  width: 100%;
+}

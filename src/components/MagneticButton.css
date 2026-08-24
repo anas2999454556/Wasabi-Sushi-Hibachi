@@ -1,0 +1,8 @@
+.magnetic {
+  display: inline-block;
+  will-change: transform;
+}
+
+.magnetic--active {
+  z-index: 2;
+}

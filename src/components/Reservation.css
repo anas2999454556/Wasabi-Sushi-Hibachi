@@ -1,0 +1,38 @@
+.flow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 760px) {
+  .flow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.flow-step {
+  background: var(--ink);
+  padding: 40px 32px;
+}
+
+.flow-step-idx {
+  font-family: var(--mono);
+  color: var(--uni);
+  font-size: 12px;
+}
+
+.flow-step h4 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 450;
+  margin-top: 14px;
+}
+
+.flow-step p {
+  color: var(--cream-dim);
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 1.6;
+}
