@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="foot-col">
             <h5>Follow</h5>
             <a href="https://web.facebook.com/people/Wasabi-Sushi-Hibachi/100063703787442/" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://instagram.com/wasabisushi.ct" target="_blank" rel="noopener noreferrer">@wasabisushi.ct</a>
+            <a href="https://instagram.com/wasabisushi.ct" target="_blank" rel="noopener noreferrer">Instagram</a>
           </div>
         </div>
         <div className="foot-bottom">
