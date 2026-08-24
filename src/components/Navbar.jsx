@@ -24,8 +24,8 @@ export default function Navbar() {
           <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</NavLink>
           <NavLink to="/reserve" onClick={() => setMenuOpen(false)}>Reserve</NavLink>
         </div>
-        <a className="btn btn-ghost navbar__cta" href="tel:+18042955421">
-          +1 804-295-5421
+        <a className="btn btn-ghost navbar__cta" href="tel:+12035275711">
+          (203) 527-5711
         </a>
         <button
           className="navbar__burger"

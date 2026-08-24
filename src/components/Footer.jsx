@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div className="foot-col">
             <h5>Visit</h5>
-            <a href="tel:+18042955421">+1 804-295-5421</a>
+            <a href="tel:+12035275711">(203) 527-5711</a>
             <span>Mon–Sat, 11:30 AM – 10:00 PM</span>
             <span>Sun, 12:00 PM – 9:00 PM</span>
           </div>
@@ -28,8 +28,8 @@ export default function Footer() {
           </div>
           <div className="foot-col">
             <h5>Follow</h5>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://web.facebook.com/people/Wasabi-Sushi-Hibachi/100063703787442/" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://instagram.com/wasabisushi.ct" target="_blank" rel="noopener noreferrer">@wasabisushi.ct</a>
           </div>
         </div>
         <div className="foot-bottom">

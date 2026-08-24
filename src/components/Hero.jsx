@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
         <div className="hero-stats">
           <div className="stat">
-            <div className="num">+1 804<span>-295</span></div>
+            <div className="num">(203) <span>527-5711</span></div>
             <div className="label">Call to reserve</div>
           </div>
           <div className="stat">

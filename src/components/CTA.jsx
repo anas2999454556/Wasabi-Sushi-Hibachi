@@ -17,7 +17,7 @@ export default function CTA() {
         </h2>
         <div className="cta-buttons">
           <MagneticButton>
-            <a className="btn btn-primary shimmer-btn cta-call" href="tel:+18042955421">
+            <a className="btn btn-primary shimmer-btn cta-call" href="tel:+12035275711">
               <span className="shimmer-btn__label">Call to reserve</span>
               <span className="shimmer-btn__sheen" aria-hidden="true" />
             </a>
@@ -27,7 +27,7 @@ export default function CTA() {
           </MagneticButton>
         </div>
         <div className="cta-note">
-          +1 804-295-5421 · Walk-ins welcome, reservations preferred
+          (203) 527-5711 · Walk-ins welcome, reservations preferred
         </div>
       </div>
     </section>

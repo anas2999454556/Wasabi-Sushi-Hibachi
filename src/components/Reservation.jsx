@@ -5,7 +5,7 @@ const steps = [
   {
     idx: '01',
     title: 'Call us',
-    text: 'Ring +1 804-295-5421 with your party size and preferred date. We take reservations by phone.',
+    text: 'Ring (203) 527-5711 with your party size and preferred date. We take reservations by phone.',
   },
   {
     idx: '02',
